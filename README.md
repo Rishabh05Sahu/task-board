@@ -121,7 +121,7 @@ Follow the steps below to set up and run the project on your local machine.
 
 Open your terminal and run:
 
-git clone <your-repository-url>
+git clone <https://github.com/Rishabh05Sahu/task-board>
 cd task-board
 
 ## 2️⃣ Install Dependencies
@@ -134,8 +134,10 @@ Create a `.env` file in the root directory of the project.
 
 Add the following variables:
 
-DATABASE_URL="your_postgresql_connection_string"
-JWT_SECRET="your_secret_key"
+DATABASE_URL="postgresql://neondb_owner:npg_UIxmyo1tjz3l@ep-mute-night-aiufec9b-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+JWT_SECRET="supersecretkey"
+
 
 ## 4️⃣ Run Prisma Migration
 
